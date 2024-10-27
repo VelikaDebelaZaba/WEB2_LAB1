@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run clean; tsc; npm run copy-views; npm run copy-views",
     "clean": "rm -rf dist",
-    "copy-views": "cp -r src/views/ dist/views/",
+    "copy-views": "cp -r src/views/",
     "start": "ts-node src/server.ts"
   },
   "keywords": [],
