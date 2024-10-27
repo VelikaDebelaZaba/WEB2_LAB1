@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run clean; tsc;",
     "clean": "rm -rf dist",
-    "start": "node src/server.ts"
+    "start": "ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
