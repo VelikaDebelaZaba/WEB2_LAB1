@@ -2,11 +2,11 @@
   "name": "lab1",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean; tsc; npm run copy-views; npm run copy-views",
+    "build": "npm run clean; tsc;",
     "clean": "rm -rf dist",
-    "copy-views": "cp -r src/views/",
     "start": "ts-node src/server.ts"
   },
   "keywords": [],
